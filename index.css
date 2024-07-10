@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(196, 30, 30);
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    box-sizing: content-box;
+    padding: 10px;
+    border: 1px solid green;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(100, 58, 6);
+    font-size: 25px;
+
+}
+
+.recipe {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#container>div {
+    background-size: contain;
+}
+
+img {
+    width: 70%;
+}
+
+
+#mealContainer{
+    padding: 7px;
+    text-align: center;
+}
+.meal{
+border: 1px solid  salmon;
+width: 100%;
+}
+#mealContainer>div>img{
+    width: fit-content;
+}
